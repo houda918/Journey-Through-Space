@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0b0c10;
+    color: #fff;
+    padding: 0;
+  }
+
+  h1, h2 {
+    color: #66fcf1;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    color: #45a29e;
+  }
+
+  /* Hero Section */
+  .hero {
+    background: url('assests/star.jpg') no-repeat center center/cover;
+    text-align: center;
+    padding: 8rem 0;
+    color: #fff;
+  }
+
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+
+  .cta-buttons a {
+    background-color: #45a29e;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    text-decoration: none;
+    color: #0b0c10;
+    border-radius: 50px;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .cta-buttons a:hover {
+    background-color: #66fcf1;
+  }
+
+  /* Grid for Navigation */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 3rem 2rem;
+  }
+
+  .grid-item {
+    background: #1f2833;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+
+  .grid-item:hover {
+    transform: translateY(-5px);
+  }
+
+  .grid-item h3 {
+    color: #66fcf1;
+    margin-bottom: 1rem;
+  }
+
+  /* Image Carousel */
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  .carousel img {
+    height: 200px;
+    border-radius: 25px;
+    transition: transform 0.3s;
+  }
+
+  .carousel img:hover {
+    transform: scale(1.1);
+  }
+
+  /* Footer */
+  footer {
+    background-color: #0b0c10;
+    padding: 2rem 0;
+    text-align: center;
+    color: #ccc;
+    font-size: 0.9rem;
+  }
+
+  footer a {
+    color: #66fcf1;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #45a29e;
+  }
+/* Image Gallery Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    justify-items: center;
+  }
+  
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
+  
+.gallery img:hover {
+    transform: scale(1.05);
+}
+  
